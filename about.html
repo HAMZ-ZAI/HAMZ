@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fat Pizza World - About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fat Pizza World</div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
+        <div class="mobile-menu-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="order.html">Order</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about-hero">
+        <h1>About Fat Pizza World</h1>
+        <p>Discover the story behind your favorite pizza place!</p>
+    </section>
+
+    <section class="about-content">
+        <div class="about-section">
+            <h2>Our Story</h2>
+            <p>Fat Pizza World was founded in 2024 by two pizza enthusiasts, Fatuma and Aloy, who wanted to bring authentic Italian flavors to their community. Starting as a small food truck, we’ve grown into a beloved pizza chain known for our fresh ingredients and creative recipes.</p>
+            <img src="https://images.unsplash.com/photo-1513104890138-7c749659a680?w=600" alt="Pizza Making">
+        </div>
+        <div class="about-section">
+            <h2>Our Mission</h2>
+            <p>We aim to make every pizza a masterpiece, using only the freshest ingredients and time-honored techniques. At Fat Pizza World, we believe pizza brings people together, and we’re here to create memorable dining experiences for all.</p>
+        </div>
+        <div class="about-section">
+            <h2>Meet the Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300" alt="Maria">
+                    <h3>Fatuma - Founder & Chef</h3>
+                    <p>With a passion for Italian cuisine, Maria crafts every recipe with love.</p>
+                </div>
+                <div class="team-member">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300" alt="Tony">
+                    <h3>Aloy- Co-Founder</h3>
+                    <p>Tony ensures every pizza is delivered hot and fresh to your door.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Fat Pizza World</h3>
+                <p>Your go-to place for the best pizzas in town!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p>Email: info@fatpizzaworld.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Fat Pizza World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+        const mobileNav = document.querySelector('.mobile-nav');
+        mobileMenuIcon.addEventListener('click', () => {
+            mobileNav.classList.toggle('open');
+        });
+    </script>
+</body>
+</html>
